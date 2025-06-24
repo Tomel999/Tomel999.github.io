@@ -1,7 +1,7 @@
 document.getElementById('templateForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const webhookUrl = 'TWOJ_WEBHOOK_URL';
+    const webhookUrl = '/api/send-to-discord';
 
     const name = document.getElementById('name').value;
     const description = document.getElementById('description').value;
