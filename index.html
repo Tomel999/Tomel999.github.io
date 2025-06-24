@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Szablonów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generator Szablonów do Discorda</h1>
+        <form id="templateForm">
+            <label for="name">Nazwa:</label>
+            <input type="text" id="name" required>
+
+            <label for="description">Opis:</label>
+            <textarea id="description" rows="4" required></textarea>
+
+            <label for="version">Wersja:</label>
+            <input type="text" id="version" required>
+
+            <label for="mcVersion">Wersja MC:</label>
+            <input type="text" id="mcVersion" required>
+
+            <label for="author">Autor:</label>
+            <input type="text" id="author" required>
+
+            <label for="mods">Mody (oddzielone przecinkami):</label>
+            <input type="text" id="mods">
+
+            <label for="modIds">ID Modów (oddzielone przecinkami):</label>
+            <input type="text" id="modIds">
+
+            <button type="submit">Wyślij na Discorda</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
